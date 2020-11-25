@@ -1,13 +1,14 @@
 import React from 'react';
 
-import ToDo from './components/todo/form.js';
+import ToDo from './components/todos/todos';
 
-export default class App extends React.Component {
-  render() {
+const App = () => {
+
     return (
       <>
         <ToDo />
       </>
     );
-  }
 }
+
+export default App
